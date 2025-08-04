@@ -1,0 +1,90 @@
+{
+  "welcome": "Welcome to the Training Checker Telegram bot!",
+  "help": "Available commands:\n/playerinfo [nickname] - Get player information\n/online - Get list of online players\n/worlds - Get world list\n/copchase - Get copchase lobbies\n/admins - Get admin list\n/badges - Get badge information\n/language - Change language",
+  "language_select": "Please select your preferred language:",
+  "language_set": "Language set to English. You can change this anytime with /language",
+  "error_fetching_data": "Error fetching data",
+  "no_data_found": "No data found",
+  "player_info_title": "Player Information",
+  "player_info_id": "ID",
+  "player_info_verify": "Verification",
+  "player_info_moder": "Moder",
+  "player_info_regdate": "Register date",
+  "player_info_not_found": "Player not found: {{nickname}}",
+  "player_info_missing_nickname": "Please provide a nickname:",
+  "player_info_cyrillic_not_allowed": "Cyrillic characters are not allowed in nicknames.",
+  "player_info_error": "Error fetching player info: {{error}}",
+  "online_players_title": "Online Players",
+  "worlds_title": "World List",
+  "copchase_title": "Copchase Lobbies",
+  "copchase_lobby": "Lobby",
+  "copchase_status": "Status",
+  "copchase_time": "Game time",
+  "copchase_players": "Players",
+  "copchase_status_search": "Search",
+  "copchase_status_ingame": "In game",
+  "copchase_status_empty": "-",
+  "admins_title": "Admin List",
+  "badges_title": "Badge List",
+  "menu_player_info": "Player Info",
+  "menu_online_players": "Online Players",
+  "menu_worlds": "Worlds",
+  "menu_copchase": "Copchase",
+  "menu_admins": "Admins",
+  "menu_badges": "Badges",
+  "menu_language": "Language",
+  "menu_back": "Back",
+  "menu_back_prompt": "Use the button below to return to the main menu:",
+  "error_unknown_action": "Unknown action",
+  "loading": "Loading...",
+  "trainingchecker/playerinfo": {
+    "success": {
+      "dataUpdated": "Player information {{nickname}} updated"
+    },
+    "title": "Player Information",
+    "info": {
+      "id": "ID",
+      "nickname": "Nickname",
+      "verify": "Verification",
+      "status": "Access",
+      "verifyText": "Verification text",
+      "muteTime": "Mute time",
+      "registerDate": "Registration date",
+      "registerDateBefore2018": "Registered before 2018",
+      "lastConnect": "Last connection",
+      "lastConnectNow": "Now online (ID: {{playerid}})",
+      "timeAgo": "ago"
+    },
+    "button": {
+      "refresh": "Refresh",
+      "punishments": "Punishments",
+      "additional": "Additional information"
+    },
+    "verify": {
+      "youtuber": "YouTuber",
+      "community_author": "Community author (mod creator)",
+      "developer": "Developer",
+      "retired_admin": "Retired administrator",
+      "sponsor": "Sponsor",
+      "world_creator": "World creator",
+      "unknown": "🤨"
+    },
+    "moderator": {
+      "player": "Player",
+      "junior": "Junior moderator",
+      "regular": "Moderator",
+      "senior": "Senior moderator",
+      "admin": "Administrator",
+      "bot": "Bot"
+    }
+  },
+  "trainingchecker/additionalinfo": {
+    "title": "Additional information",
+    "achievement": "Attached achievement",
+    "bonus_points": "Bonus points",
+    "copchase_rate": "Copchase rating",
+    "prefix": "Prefix",
+    "social_credits": "Social credit",
+    "signs": "Signatures"
+  }
+}

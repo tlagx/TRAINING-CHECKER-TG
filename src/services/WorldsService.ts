@@ -1,6 +1,10 @@
-import { chronoApiClient } from '../api/axios'
+import { chronoApiClient } from '../api/axios.js'
 
 export const getWorlds = async () => {
-  const response = await chronoApiClient.get('/worlds')
-  return response.data
+  const response: any = await chronoApiClient.get('/api/worlds')
+  // Handle different response structures
+  if (response.data) {
+    return response.data
+  }
+  return response
 }

@@ -1,0 +1,90 @@
+{
+  "welcome": "Добро пожаловать в Telegram-бота Training Checker!",
+  "help": "Доступные команды:\n/playerinfo [ник] - Получить информацию об игроке\n/online - Получить список онлайн-игроков\n/worlds - Получить список миров\n/copchase - Получить лобби copchase\n/admins - Получить список администраторов\n/badges - Получить информацию о значках\n/language - Изменить язык",
+  "language_select": "Пожалуйста, выберите предпочитаемый язык:",
+  "language_set": "Язык установлен на русский. Вы можете изменить это в любое время с помощью /language",
+  "error_fetching_data": "Ошибка при получении данных",
+  "no_data_found": "Данные не найдены",
+  "player_info_title": "Информация об игроке",
+  "player_info_id": "ID",
+  "player_info_verify": "Верификация",
+  "player_info_moder": "Модератор",
+  "player_info_regdate": "Дата регистрации",
+  "player_info_not_found": "Игрок не найден: {{nickname}}",
+  "player_info_missing_nickname": "Пожалуйста, укажите никнейм:",
+  "player_info_cyrillic_not_allowed": "Кириллические символы в никнеймах запрещены.",
+  "player_info_error": "Ошибка при получении информации об игроке: {{error}}",
+  "online_players_title": "Онлайн-игроки",
+  "worlds_title": "Список миров",
+  "copchase_title": "Лобби Copchase",
+  "copchase_lobby": "Лобби",
+  "copchase_status": "Статус",
+  "copchase_time": "Время игры",
+  "copchase_players": "Количество игроков",
+  "copchase_status_search": "Подбор",
+  "copchase_status_ingame": "В игре",
+  "copchase_status_empty": "-",
+  "admins_title": "Список администраторов",
+  "badges_title": "Список значков",
+  "menu_player_info": "Информация об игроке",
+  "menu_online_players": "Онлайн-игроки",
+  "menu_worlds": "Миры",
+  "menu_copchase": "Copchase",
+  "menu_admins": "Администраторы",
+  "menu_badges": "Значки",
+  "menu_language": "Язык",
+  "menu_back": "Назад",
+  "menu_back_prompt": "Используйте кнопку ниже для возврата в главное меню:",
+  "error_unknown_action": "Неизвестное действие",
+  "loading": "Загрузка...",
+  "trainingchecker/playerinfo": {
+    "success": {
+      "dataUpdated": "Информация об игроке {{nickname}} обновлена"
+    },
+    "title": "Информация об игроке",
+    "info": {
+      "id": "ID",
+      "nickname": "Никнейм",
+      "verify": "Верификация",
+      "status": "Доступ",
+      "verifyText": "Текст верификации",
+      "muteTime": "Время мута",
+      "registerDate": "Дата регистрации",
+      "registerDateBefore2018": "Зарегистрирован до 2018 года",
+      "lastConnect": "Последний вход",
+      "lastConnectNow": "Сейчас в сети (ID: {{playerid}})",
+      "timeAgo": "назад"
+    },
+    "button": {
+      "refresh": "Обновить",
+      "punishments": "Наказания",
+      "additional": "Дополнительная информация"
+    },
+    "verify": {
+      "youtuber": "Ютубер",
+      "community_author": "Автор сообщества (создатель модов)",
+      "developer": "Разработчик",
+      "retired_admin": "Администратор в отставке",
+      "sponsor": "Спонсор",
+      "world_creator": "Создатель миров",
+      "unknown": "Неизвестно"
+    },
+    "moderator": {
+      "player": "Игрок",
+      "junior": "Младший модератор",
+      "regular": "Модератор",
+      "senior": "Старший модератор",
+      "admin": "Администратор",
+      "bot": "Bot"
+    }
+  },
+  "trainingchecker/additionalinfo": {
+    "title": "Дополнительная информация",
+    "achievement": "Прикрепленное достижение",
+    "bonus_points": "Бонусные поинты",
+    "copchase_rate": "Рейтинг Copchase",
+    "prefix": "Префикс",
+    "social_credits": "Социальный кредит",
+    "signs": "Подписи"
+  }
+}

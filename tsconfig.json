@@ -7,7 +7,19 @@
     "esModuleInterop": true,
     "skipLibCheck": true,
     "outDir": "dist",
-    "rootDir": "src"
+    "rootDir": "src",
+    "allowSyntheticDefaultImports": true,
+    "declaration": true,
+    "declarationMap": true,
+    "sourceMap": true,
+    "composite": false,
+    "removeComments": false,
+    "noEmitOnError": false,
+    "lib": ["es2017"],
+    "types": ["node"],
+    "resolveJsonModule": true,
+    "noEmit": false
   },
-  "include": ["src"]
+  "include": ["src"],
+  "exclude": ["node_modules", "dist"]
 }

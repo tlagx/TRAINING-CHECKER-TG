@@ -1,6 +1,10 @@
-import { trainingApiClient } from '../api/axios'
+import { trainingApiClient } from '../api/axios.js'
 
 export const fetchPlayersOnline = async () => {
-  const response = await trainingApiClient.get('/online')
-  return response.data.data
+  const response: any = await trainingApiClient.get('/api/online')
+  // Handle different response structures
+  if (response.data && response.data.data) {
+    return response.data.data
+  }
+  return response.data || response
 }
