@@ -1,0 +1,6 @@
+{
+  "error_fetching_data": "Ошибка при получении данных",
+  "no_data_found": "Данные не найдены",
+  "error_unknown_action": "Неизвестное действие",
+  "player_info_error": "Ошибка при получении информации об игроке: {{error}}"
+}

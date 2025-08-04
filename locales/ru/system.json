@@ -1,0 +1,53 @@
+{
+  "loading": "Загрузка...",
+  "playerinfo": {
+    "success": {
+      "dataUpdated": "Информация об игроке {{nickname}} обновлена"
+    },
+    "title": "Информация об игроке",
+    "info": {
+      "id": "ID",
+      "nickname": "Никнейм",
+      "verify": "Верификация",
+      "status": "Доступ",
+      "verifyText": "Текст верификации",
+      "muteTime": "Время мута",
+      "registerDate": "Дата регистрации",
+      "registerDateBefore2018": "Зарегистрирован до 2018 года",
+      "lastConnect": "Последний вход",
+      "lastConnectNow": "Сейчас в сети (ID: {{playerid}})",
+      "timeAgo": "назад"
+    },
+    "button": {
+      "refresh": "Обновить",
+      "punishments": "Наказания",
+      "additional": "Дополнительная информация"
+    },
+    "verify": {
+      "youtuber": "Ютубер",
+      "community_author": "Автор сообщества (создатель модов)",
+      "developer": "Разработчик",
+      "retired_admin": "Администратор в отставке",
+      "sponsor": "Спонсор",
+      "world_creator": "Создатель миров",
+      "unknown": "Неизвестно"
+    },
+    "moderator": {
+      "player": "Игрок",
+      "junior": "Младший модератор",
+      "regular": "Модератор",
+      "senior": "Старший модератор",
+      "admin": "Администратор",
+      "bot": "Bot"
+    }
+  },
+  "additionalinfo": {
+    "title": "Дополнительная информация",
+    "achievement": "Прикрепленное достижение",
+    "bonus_points": "Бонусные поинты",
+    "copchase_rate": "Рейтинг Copchase",
+    "prefix": "Префикс",
+    "social_credits": "Социальный кредит",
+    "signs": "Подписи"
+  }
+}

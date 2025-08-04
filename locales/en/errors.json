@@ -1,0 +1,6 @@
+{
+  "error_fetching_data": "Error fetching data",
+  "no_data_found": "No data found",
+  "error_unknown_action": "Unknown action",
+  "player_info_error": "Error fetching player info: {{error}}"
+}

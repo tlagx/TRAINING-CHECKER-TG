@@ -1,0 +1,6 @@
+{
+  "welcome": "Добро пожаловать в Telegram-бота Training Checker!",
+  "help": "Доступные команды:\n/playerinfo [ник] - Получить информацию об игроке\n/online - Получить список онлайн-игроков\n/worlds - Получить список миров\n/copchase - Получить лобби copchase\n/admins - Получить список администраторов\n/badges - Получить информацию о значках\n/language - Изменить язык",
+  "player_info_missing_nickname": "Пожалуйста, укажите никнейм:",
+  "player_info_cyrillic_not_allowed": "Кириллические символы в никнеймах запрещены."
+}

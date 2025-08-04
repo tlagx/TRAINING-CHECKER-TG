@@ -1,0 +1,13 @@
+{
+  "language_select": "Please select your preferred language:",
+  "language_set": "Language set to English. You can change this anytime with /language",
+  "menu_player_info": "Player Info",
+  "menu_online_players": "Online Players",
+  "menu_worlds": "Worlds",
+  "menu_copchase": "Copchase",
+  "menu_admins": "Admins",
+  "menu_badges": "Badges",
+  "menu_language": "Language",
+  "menu_back": "Back",
+  "menu_back_prompt": "Use the button below to return to the main menu:"
+}

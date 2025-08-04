@@ -1,0 +1,20 @@
+{
+  "player_info_title": "Player Information",
+  "online_players_title": "Online Players",
+  "worlds_title": "World List",
+  "copchase_title": "Copchase Lobbies",
+  "admins_title": "Admin List",
+  "badges_title": "Badge List",
+  "player_info_id": "ID",
+  "player_info_verify": "Verification",
+  "player_info_moder": "Moder",
+  "player_info_regdate": "Register date",
+  "player_info_not_found": "Player not found: {{nickname}}",
+  "copchase_lobby": "Lobby",
+  "copchase_status": "Status",
+  "copchase_time": "Game time",
+  "copchase_players": "Players",
+  "copchase_status_search": "Search",
+  "copchase_status_ingame": "In game",
+  "copchase_status_empty": "-"
+}

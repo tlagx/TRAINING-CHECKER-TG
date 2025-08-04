@@ -1,0 +1,53 @@
+{
+  "loading": "Loading...",
+  "playerinfo": {
+    "success": {
+      "dataUpdated": "Player information {{nickname}} updated"
+    },
+    "title": "Player Information",
+    "info": {
+      "id": "ID",
+      "nickname": "Nickname",
+      "verify": "Verification",
+      "status": "Access",
+      "verifyText": "Verification text",
+      "muteTime": "Mute time",
+      "registerDate": "Registration date",
+      "registerDateBefore2018": "Registered before 2018",
+      "lastConnect": "Last connection",
+      "lastConnectNow": "Now online (ID: {{playerid}})",
+      "timeAgo": "ago"
+    },
+    "button": {
+      "refresh": "Refresh",
+      "punishments": "Punishments",
+      "additional": "Additional information"
+    },
+    "verify": {
+      "youtuber": "YouTuber",
+      "community_author": "Community author (mod creator)",
+      "developer": "Developer",
+      "retired_admin": "Retired administrator",
+      "sponsor": "Sponsor",
+      "world_creator": "World creator",
+      "unknown": "🤨"
+    },
+    "moderator": {
+      "player": "Player",
+      "junior": "Junior moderator",
+      "regular": "Moderator",
+      "senior": "Senior moderator",
+      "admin": "Administrator",
+      "bot": "Bot"
+    }
+  },
+  "additionalinfo": {
+    "title": "Additional information",
+    "achievement": "Attached achievement",
+    "bonus_points": "Bonus points",
+    "copchase_rate": "Copchase rating",
+    "prefix": "Prefix",
+    "social_credits": "Social credit",
+    "signs": "Signatures"
+  }
+}

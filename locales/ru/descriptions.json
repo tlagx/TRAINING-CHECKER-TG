@@ -1,0 +1,20 @@
+{
+  "player_info_title": "Информация об игроке",
+  "online_players_title": "Онлайн-игроки",
+  "worlds_title": "Список миров",
+  "copchase_title": "Лобби Copchase",
+  "admins_title": "Список администраторов",
+  "badges_title": "Список значков",
+  "player_info_id": "ID",
+  "player_info_verify": "Верификация",
+  "player_info_moder": "Модератор",
+  "player_info_regdate": "Дата регистрации",
+  "player_info_not_found": "Игрок не найден: {{nickname}}",
+  "copchase_lobby": "Лобби",
+  "copchase_status": "Статус",
+  "copchase_time": "Время игры",
+  "copchase_players": "Количество игроков",
+  "copchase_status_search": "Подбор",
+  "copchase_status_ingame": "В игре",
+  "copchase_status_empty": "-"
+}

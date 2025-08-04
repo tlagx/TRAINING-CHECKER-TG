@@ -1,0 +1,6 @@
+{
+  "welcome": "Welcome to the Training Checker Telegram bot!",
+  "help": "Available commands:\n/playerinfo [nickname] - Get player information\n/online - Get list of online players\n/worlds - Get world list\n/copchase - Get copchase lobbies\n/admins - Get admin list\n/badges - Get badge information\n/language - Change language",
+  "player_info_missing_nickname": "Please provide a nickname:",
+  "player_info_cyrillic_not_allowed": "Cyrillic characters are not allowed in nicknames."
+}
