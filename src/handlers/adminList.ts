@@ -11,9 +11,9 @@ export const adminListHandler = async (ctx: any, updateMessage: boolean = false)
     
     // Check if admins data exists
     if (!admins) {
-      const message = t(userLang, 'common', 'no_data_found')
+      const message = t(userLang, 'menu', 'no_data_found')
       const backKeyboard = Markup.inlineKeyboard([
-        [Markup.button.callback(t(userLang, 'common', 'menu_back'), 'menu_main')]
+        [Markup.button.callback(t(userLang, 'menu', 'menu_back'), 'menu_main')]
       ])
       if (updateMessage) {
         return ctx.editMessageText(message, backKeyboard)
@@ -48,9 +48,9 @@ export const adminListHandler = async (ctx: any, updateMessage: boolean = false)
       return `${login} (${id}) - ${warns} warns`
     }).join('\n')
     
-    const title = t(userLang, 'common', 'admins_title')
+    const title = t(userLang, 'menu', 'admins_title')
     const backKeyboard = Markup.inlineKeyboard([
-      [Markup.button.callback(t(userLang, 'common', 'menu_back'), 'menu_main')]
+      [Markup.button.callback(t(userLang, 'menu', 'menu_back'), 'menu_main')]
     ])
     
     if (updateMessage) {

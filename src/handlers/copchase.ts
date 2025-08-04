@@ -51,17 +51,17 @@ export const copchaseHandler = async (ctx: any, updateMessage: boolean = false) 
       // Translate status
       let statusText = status;
       if (status === 'Подбор') {
-        statusText = t(userLang, 'common', 'copchase_status_search') || 'Подбор'
+        statusText = t(userLang, 'descriptions', 'copchase_status_search') || 'Подбор'
       } else if (status === 'В игре') {
-        statusText = t(userLang, 'common', 'copchase_status_ingame') || 'В игре'
+        statusText = t(userLang, 'descriptions', 'copchase_status_ingame') || 'В игре'
       } else if (status === '') {
-        statusText = t(userLang, 'common', 'copchase_status_empty') || '-'
+        statusText = t(userLang, 'descriptions', 'copchase_status_empty') || '-'
       }
       
-      return `${t(userLang, 'common', 'copchase_lobby')} №${number}\n${t(userLang, 'common', 'copchase_status')}: ${statusText}\n${t(userLang, 'common', 'copchase_time')}: ${time}\n${t(userLang, 'common', 'copchase_players')}: ${players}/${maxPlayers}\n`
+      return `${t(userLang, 'descriptions', 'copchase_lobby')} №${number}\n${t(userLang, 'descriptions', 'copchase_status')}: ${statusText}\n${t(userLang, 'descriptions', 'copchase_time')}: ${time}\n${t(userLang, 'descriptions', 'copchase_players')}: ${players}/${maxPlayers}\n`
     }).join('\n')
     
-    const title = t(userLang, 'common', 'copchase_title')
+    const title = t(userLang, 'descriptions', 'copchase_title')
     const backKeyboard = Markup.inlineKeyboard([
       [Markup.button.callback(t(userLang, 'common', 'menu_back'), 'menu_main')]
     ])
